@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+          background-color: black;
+          color: rgb(248, 240, 229);
+        }
+        #heading{
+          text-align: center;
+          color: orangered;
+        }
+        table{
+          background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Land of Boxes Order Form</h1>
+    <label>Name:</label>
+    <input type="text" value="Walaa Brody"><br>
+    <label>Email:</label>
+    <input type="email" value="W.brody@Widget-sales.com"><br>
+    <label>Address:</label>
+     <textarea placeholder="162 MAIN road rondebosh cape town"></textarea><br>
+    <label>Postcode</label>
+    <input type="number" value="7700">
+    <table border="2px">
+        <tr>
+          <th>Product</th>
+          <th>Part Number</th>
+          <th>Quantity</th>
+          <th>Unit Price</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>EconoBox</td>
+            <td>LB100</td>
+            <td>3</td>
+            <td>R5</td>
+            <td>R15</td>
+          </tr>
+          <tr></tr>
+            <td>Stander Box</td>
+            <td>LB200</td>
+            <td>4</td>
+            <td>R10</td>
+            <td>R40</td>
+          </tr>
+          <tr></tr>
+            <td>Premium Box/TD></td>
+            <td>LB300</td>
+            <td>1</td>
+            <td>R15</td>
+            <td>R15</td>
+          </tr>
+          <tr></tr>
+            <td>Deluxe Box/TD></td>
+            <td>LB400</td>
+            <td>0</td>
+            <td>R20</td>
+            <td></td>
+          </tr>
+          <tr></tr>
+            <td> Super Deluxe Box/TD></td>
+            <td>LB500</td>
+            <td>1</td>
+            <td>R30</td>
+            <td>R30</td>
+          </tr>
+          <tr><td colspan="4" >Total:</td>
+        <td>R100</td></tr>
+    </table>
+    <h1>Credit Card Details</h1><br>
+    Card Type:<br>
+    <input type="radio">Mastercard
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Card Number:<input type="number" value="45645"><br>
+    <input type="radio">Visa
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Expiry date:<input type="date" value="03/99"><br>
+    <input type="radio">American Express<br>
+    <input type="radio">Diners Clubs
+    <h1>Delivery Address:
+        <textarea placeholder="162 Main Road Rondebosch cape town"></textarea>
+    </h1>
+    <button>send order</button>
+    <button>clear form</button>
+</body>
+</html>
